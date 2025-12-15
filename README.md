@@ -62,6 +62,33 @@ If keys.dat is missing, the program will not run.
 • Saves, updates, and DLC are NOT modified
 
 ------------------------------------
+SUPPORTED NSP STRUCTURE
+------------------------------------
+
+This tool ONLY works with NSP files that contain:
+
+• Control NCA
+• Meta (CNMT) NCA
+
+These are typically:
+• Base game NSPs
+• Properly dumped eShop titles
+
+NSP files that DO NOT contain a Control NCA
+or CNMT metadata will NOT work.
+
+Examples of unsupported NSPs:
+• Partial / stripped dumps
+• Some ports with icon stored in RomFS
+• Homebrew-forwarder style NSPs
+• Custom or malformed NSPs
+
+If your NSP does not include both:
+• control.nca
+• *.cnmt.nca / *.cnmt.xml
+
+This tool cannot modify the icon.
+------------------------------------
  LEGAL
 ------------------------------------
 
