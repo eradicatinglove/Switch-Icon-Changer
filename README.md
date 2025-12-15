@@ -25,9 +25,9 @@ The following files must exist next to the EXE:
 NSP-IconChanger.exe
 decrypt.bat
 ztools/
-   hactool.exe
-   hacpack.exe
-   keys.dat   ← YOU MUST ADD THIS
+hactool.exe
+hacpack.exe
+keys.dat   ← YOU MUST ADD THIS
 
 If keys.dat is missing, the program will not run.
 
